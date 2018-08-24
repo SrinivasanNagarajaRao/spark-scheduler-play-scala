@@ -1,0 +1,20 @@
+/** Key - Value to fill the no. of entries in redis */
+
+1
+{"jobid":"null","session":1}
+
+/** Output Json if spark server is busy */
+
+{
+"status": "SERVER IS BUSY"
+}
+
+/** Output Json if spark server is started */
+
+{
+    "status": "Job Started",
+    "sessionid": "1",
+    "jobid": [
+        "India"
+    ]
+}
